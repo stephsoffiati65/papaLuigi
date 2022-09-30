@@ -2312,10 +2312,7 @@ section[data-section="menu"] {
 }
 
  @media (max-width: 768px) {
-  #luigiNoir {
-    display:none !important;
-  }
-
+  
   #navbar-collapse ul{
     flex-direction: column;
   }
