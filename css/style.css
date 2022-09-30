@@ -2311,13 +2311,22 @@ section[data-section="menu"] {
 
 }
 
-@media (max-width: 1250px) {
-  #luigiblanc {
+ @media (max-width: 768px) {
+  #luigiNoir {
     display:none !important;
+  }
+
+  #navbar-collapse ul{
+    flex-direction: column;
   }
 
 }
 
+#luigiBlanc {
+  width:350px;
+  margin:auto;
+  margin-top: -20%
+}
 
 #navbar-collapse ul{
   display: flex;
